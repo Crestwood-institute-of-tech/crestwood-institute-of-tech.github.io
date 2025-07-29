@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Crestwood Institute of Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-contact">
+                <span><i class="fas fa-envelope"></i> info@cit.ug</span>
+                <span><i class="fas fa-phone-alt"></i> +256 789 123 456</span>
+            </div>
+            <div class="top-bar-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="top-bar-quick-links">
+                <a href="admissions.html">Apply Now</a> |
+                <a href="#">Alumni</a> |
+                <a href="#">Careers</a> |
+                <a href="#">Portal Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="main-header sticky-nav">
+        <div class="container">
+            <div class="logo">CIT</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="about.html">About Us <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html#vision-mission">Vision & Mission</a></li>
+                            <li><a href="about.html#leadership">Leadership</a></li>
+                            <li><a href="about.html#campus">Campus</a></li>
+                            <li><a href="about.html#history">Our History</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="programs.html">Academics <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programs.html#schools">Schools & Faculties</a></li>
+                            <li><a href="programs.html">Programs Offered</a></li>
+                            <li><a href="programs.html#online-learning">Online Learning</a></li>
+                            <li><a href="resources.html#academic-calendar">Academic Calendar</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="admissions.html">Admissions <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="admissions.html#online-application-form">Apply Now</a></li>
+                            <li><a href="admissions.html#admission-requirements">Admission Requirements</a></li>
+                            <li><a href="scholarships.html">Scholarships & Financial Aid</a></li>
+                            <li><a href="#">International Students</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Student Life <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Clubs & Societies</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Hostel Life</a></li>
+                            <li><a href="#">Counseling & Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Research & Innovation <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Research Projects</a></li>
+                            <li><a href="#">Innovation Lab</a></li>
+                            <li><a href="#">Collaborations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="apply-now-btn">Apply Now</button>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero faq-hero">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find quick answers to common questions about CIT, our programs, admissions, and more.</p>
+            </div>
+        </section>
+
+        <section class="section-content faq-categories">
+            <div class="container">
+                <div class="faq-category-grid">
+                    <a href="#application-process" class="category-card">
+                        <i class="fas fa-file-signature category-icon"></i>
+                        <h4>Application Process</h4>
+                    </a>
+                    <a href="#course-details" class="category-card">
+                        <i class="fas fa-book category-icon"></i>
+                        <h4>Course Details</h4>
+                    </a>
+                    <a href="#tuition-fees" class="category-card">
+                        <i class="fas fa-money-bill-wave category-icon"></i>
+                        <h4>Tuition & Fees</h4>
+                    </a>
+                    <a href="#scholarships" class="category-card">
+                        <i class="fas fa-graduation-cap category-icon"></i>
+                        <h4>Scholarships</h4>
+                    </a>
+                    <a href="#portal-support" class="category-card">
+                        <i class="fas fa-user-circle category-icon"></i>
+                        <h4>Portal Support</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content faq-list-section" id="application-process">
+            <div class="container">
+                <h3>Application Process FAQs</h3>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How do I apply to Crestwood Institute of Technology?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>You can apply directly through our online application form on the <a href="admissions.html" class="inline-link">Admissions page</a>. Simply fill in your details, upload required documents, and pay the application fee.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            What documents are required for application?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Typically, you'll need scanned copies of your academic transcripts (UCE, UACE, or equivalent), a valid national ID or passport, and a personal statement. Specific programs may require additional documents.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Is there an application fee?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes, a non-refundable application fee of UGX 50,000 is required to process your application.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content faq-list-section" id="course-details">
+            <div class="container">
+                <h3>Course Details FAQs</h3>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How long do the programs last?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Our Certificate programs typically last 6 months (full-time) or 9 months (part-time). Short courses vary from a few weeks to 3 months. Please refer to individual <a href="programs.html" class="inline-link">Program pages</a> for exact durations.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Are there flexible learning options?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes, CIT offers online and blended learning modes designed for flexibility. This allows students to balance their studies with work or other commitments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content faq-list-section" id="tuition-fees">
+            <div class="container">
+                <h3>Tuition & Fees FAQs</h3>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            What are the payment options for tuition?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We offer various payment options, including full upfront payment, installment plans, and mobile money payments. Details are provided in your admission letter and on the Student Portal.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            Are there any hidden fees?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>No, all fees are clearly outlined in our prospectus and on individual program pages. We believe in transparency regarding tuition and other charges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content faq-list-section" id="scholarships">
+            <div class="container">
+                <h3>Scholarships FAQs</h3>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How can I apply for a scholarship?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Information on available scholarships and the application process can be found on our dedicated <a href="scholarships.html" class="inline-link">Scholarships & Financial Aid page</a>. Eligibility criteria vary per scholarship.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            What types of scholarships are available?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>CIT offers Merit-Based, Need-Based, Women-in-Tech, and Community Impact scholarships. Please visit the Scholarships page for full details.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content faq-list-section" id="portal-support">
+            <div class="container">
+                <h3>Portal Support FAQs</h3>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            I can't log in to the student portal. What should I do?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Please ensure you are using the correct Student ID/Username and password. If you've forgotten your password, use the "Forgot Password" link on the <a href="portal.html" class="inline-link">Student Portal login page</a>. If issues persist, contact IT support at <a href="mailto:support@cit.ug">support@cit.ug</a>.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            How do I access my course materials?
+                            <i class="fas fa-chevron-down accordion-icon"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Once logged into the Student Portal, navigate to the "Course Access" section. All your enrolled courses and their respective materials will be listed there.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content apply-cta">
+            <div class="container text-center">
+                <h2>Still Have Questions?</h2>
+                <p>Our team is here to help. Reach out to us directly.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Detailed Footer -->
+    <footer class="detailed-footer">
+        <div class="container">
+            <div class="footer-col">
+                <div class="footer-logo">CIT</div>
+                <p class="footer-motto">“Raising Africa’s Next Tech Leaders”</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Portal Login</a></li>
+                    <li><a href="admissions.html">Admission Portal</a></li>
+                    <li><a href="#">Careers at CIT</a></li>
+                    <li><a href="#">Alumni Network</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="programs.html#diplomas">All Diplomas</a></li>
+                    <li><a href="programs.html#short-courses">All Short Courses</a></li>
+                    <li><a href="#">Evening/Weekend Programs</a></li>
+                    <li><a href="scholarships.html#women-in-tech">Women in Tech Initiatives</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@cit.ug">info@cit.ug</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+256789123456">+256 789 123 456</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Future Campus: Kampala, Uganda</p>
+                <p><i class="fas fa-clock"></i> Office Hours: Mon-Fri, 9 AM - 5 PM</p>
+                <div class="footer-map-link">
+                    <a href="contact.html#google-map-section">View on Map <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Crestwood Institute of Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic JavaScript for sticky nav and mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('.main-header');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            // Sticky Navigation
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) { // Adjust scroll threshold as needed
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Mobile Menu Toggle
+            mobileMenu.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                mobileMenu.classList.toggle('active'); // Change icon
+            });
+
+            // Close mobile menu when a link is clicked (optional)
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // Dropdown functionality for desktop (basic hover) and mobile (click)
+            const dropdowns = document.querySelectorAll('.has-dropdown');
+            dropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('a');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                // For desktop hover
+                dropdown.addEventListener('mouseenter', () => {
+                    if (window.innerWidth > 768) { // Only on larger screens
+                        dropdownMenu.style.display = 'block';
+                    }
+                });
+                dropdown.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        dropdownMenu.style.display = 'none';
+                    }
+                });
+
+                // For mobile click
+                dropdownToggle.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault(); // Prevent default link behavior
+                        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            // Accordion functionality for FAQs
+            const accordionHeaders = document.querySelectorAll('.accordion-header');
+            accordionHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const accordionItem = header.parentElement;
+                    const accordionContent = header.nextElementSibling;
+                    const icon = header.querySelector('.accordion-icon');
+
+                    // Close other open accordions
+                    document.querySelectorAll('.accordion-item.active').forEach(item => {
+                        if (item !== accordionItem) {
+                            item.classList.remove('active');
+                            item.querySelector('.accordion-content').style.maxHeight = null;
+                            item.querySelector('.accordion-icon').classList.remove('fa-chevron-up');
+                            item.querySelector('.accordion-icon').classList.add('fa-chevron-down');
+                        }
+                    });
+
+                    // Toggle current accordion
+                    accordionItem.classList.toggle('active');
+                    if (accordionItem.classList.contains('active')) {
+                        accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        accordionContent.style.maxHeight = null;
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

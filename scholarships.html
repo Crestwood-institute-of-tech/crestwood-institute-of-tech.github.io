@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarships & Financial Aid - Crestwood Institute of Technology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-contact">
+                <span><i class="fas fa-envelope"></i> info@cit.ug</span>
+                <span><i class="fas fa-phone-alt"></i> +256 789 123 456</span>
+            </div>
+            <div class="top-bar-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="top-bar-quick-links">
+                <a href="admissions.html">Apply Now</a> |
+                <a href="#">Alumni</a> |
+                <a href="#">Careers</a> |
+                <a href="#">Portal Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="main-header sticky-nav">
+        <div class="container">
+            <div class="logo">CIT</div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="about.html">About Us <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html#vision-mission">Vision & Mission</a></li>
+                            <li><a href="about.html#leadership">Leadership</a></li>
+                            <li><a href="about.html#campus">Campus</a></li>
+                            <li><a href="about.html#history">Our History</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="programs.html">Academics <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="programs.html#schools">Schools & Faculties</a></li>
+                            <li><a href="programs.html">Programs Offered</a></li>
+                            <li><a href="programs.html#online-learning">Online Learning</a></li>
+                            <li><a href="resources.html#academic-calendar">Academic Calendar</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="admissions.html">Admissions <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="admissions.html#online-application-form">Apply Now</a></li>
+                            <li><a href="admissions.html#admission-requirements">Admission Requirements</a></li>
+                            <li><a href="scholarships.html">Scholarships & Financial Aid</a></li>
+                            <li><a href="#">International Students</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Student Life <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Clubs & Societies</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Hostel Life</a></li>
+                            <li><a href="#">Counseling & Support</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Research & Innovation <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Research Projects</a></li>
+                            <li><a href="#">Innovation Lab</a></li>
+                            <li><a href="#">Collaborations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="apply-now-btn">Apply Now</button>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero scholarships-hero">
+            <div class="container">
+                <h2>Scholarships & Financial Aid</h2>
+                <p>CIT is committed to making quality tech education accessible to all deserving students.</p>
+            </div>
+        </section>
+
+        <section class="section-content scholarship-overview">
+            <div class="container">
+                <h3>Overview of Opportunities</h3>
+                <p class="section-description">We offer a range of scholarships and financial aid options to support our students on their academic journey. Explore the categories below to find what suits you.</p>
+
+                <div class="scholarship-category-grid">
+                    <div class="scholarship-card-detailed" id="merit">
+                        <i class="fas fa-award scholarship-icon-large"></i>
+                        <h4>Merit-Based Scholarships</h4>
+                        <p>Awarded to high-achieving students who demonstrate exceptional academic performance and potential in technology-related fields. These scholarships recognize excellence and encourage continued academic rigor.</p>
+                        <h5>Eligibility:</h5>
+                        <ul>
+                            <li>Minimum aggregate of [X] points in UACE or equivalent.</li>
+                            <li>Strong academic records in STEM subjects.</li>
+                            <li>Demonstrated leadership potential or participation in tech-related extracurriculars.</li>
+                        </ul>
+                        <a href="#how-to-apply-scholarship" class="btn btn-outline">How to Apply</a>
+                    </div>
+
+                    <div class="scholarship-card-detailed" id="need-based">
+                        <i class="fas fa-hand-holding-usd scholarship-icon-large"></i>
+                        <h4>Need-Based Financial Aid</h4>
+                        <p>Designed to support talented students from economically disadvantaged backgrounds. Our aim is to remove financial barriers and ensure access to quality tech education.</p>
+                        <h5>Eligibility:</h5>
+                        <ul>
+                            <li>Demonstrable financial need (requires submission of financial statements/proof of income).</li>
+                            <li>Good academic standing (minimum [Y] aggregate in UCE/UACE).</li>
+                            <li>Ugandan citizen residing in Uganda.</li>
+                        </ul>
+                        <a href="#how-to-apply-scholarship" class="btn btn-outline">How to Apply</a>
+                    </div>
+
+                    <div class="scholarship-card-detailed" id="women-in-tech">
+                        <i class="fas fa-female scholarship-icon-large"></i>
+                        <h4>Women in Tech Scholarships</h4>
+                        <p>An initiative to empower and encourage more women to pursue careers in technology. These scholarships aim to increase female representation in the tech industry.</p>
+                        <h5>Eligibility:</h5>
+                        <ul>
+                            <li>Female Ugandan citizen.</li>
+                            <li>Enrolled or accepted into a CIT tech program.</li>
+                            <li>Passion for technology and a commitment to making an impact.</li>
+                        </ul>
+                        <a href="#how-to-apply-scholarship" class="btn btn-outline">How to Apply</a>
+                    </div>
+
+                    <div class="scholarship-card-detailed" id="community-impact">
+                        <i class="fas fa-users scholarship-icon-large"></i>
+                        <h4>Community Impact Scholarships</h4>
+                        <p>For students dedicated to leveraging technology for community development and social good. Preference given to those with innovative project ideas.</p>
+                        <h5>Eligibility:</h5>
+                        <ul>
+                            <li>Demonstrated commitment to community service.</li>
+                            <li>Proposal for a tech-driven community project.</li>
+                            <li>Good academic standing.</li>
+                        </ul>
+                        <a href="#how-to-apply-scholarship" class="btn btn-outline">How to Apply</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content how-to-apply-scholarship" id="how-to-apply-scholarship">
+            <div class="container">
+                <h3>How to Apply for Scholarships</h3>
+                <p class="section-description">Follow these steps to submit a successful scholarship application:</p>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <span class="step-number">1</span>
+                        <h4>Review Eligibility</h4>
+                        <p>Carefully read the eligibility criteria for each scholarship you are interested in.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">2</span>
+                        <h4>Prepare Documents</h4>
+                        <p>Gather all required documents: academic transcripts, recommendation letters, personal statement, financial proof (if applicable).</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">3</span>
+                        <h4>Complete Application</h4>
+                        <p>Fill out the online scholarship application form completely and accurately.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">4</span>
+                        <h4>Submit by Deadline</h4>
+                        <p>Ensure your application and all supporting documents are submitted before the specified deadline.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">5</span>
+                        <h4>Interview (if required)</h4>
+                        <p>Shortlisted candidates may be invited for an interview or assessment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-content application-timeline">
+            <div class="container">
+                <h3>Scholarship Application Timeline</h3>
+                <p class="section-description">Key dates for scholarship applications for the upcoming academic year.</p>
+                <div class="calendar-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Scholarship Type</th>
+                                <th>Application Opens</th>
+                                <th>Application Deadline</th>
+                                <th>Notification Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Merit-Based</td>
+                                <td>Oct 1, 2024</td>
+                                <td>Dec 15, 2024</td>
+                                <td>Jan 5, 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Need-Based</td>
+                                <td>Oct 1, 2024</td>
+                                <td>Dec 15, 2024</td>
+                                <td>Jan 5, 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Women in Tech</td>
+                                <td>Nov 1, 2024</td>
+                                <td>Jan 31, 2025</td>
+                                <td>Feb 15, 2025</td>
+                            </tr>
+                            <tr>
+                                <td>Community Impact</td>
+                                <td>Nov 1, 2024</td>
+                                <td>Jan 31, 2025</td>
+                                <td>Feb 15, 2025</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="calendar-note">Timelines are subject to change. Please confirm dates annually.</p>
+            </div>
+        </section>
+
+        <section class="section-content donor-opportunities">
+            <div class="container text-center">
+                <h3>Partner with Us: Empower Future Innovators</h3>
+                <p class="section-description">Your support can transform lives. Partner with Crestwood Institute of Technology to provide scholarships and empower the next generation of tech leaders in Uganda.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Become a Donor</a>
+                <p class="mt-20">For more information, please contact our Partnerships Office at <a href="mailto:partnerships@cit.ug">partnerships@cit.ug</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Detailed Footer -->
+    <footer class="detailed-footer">
+        <div class="container">
+            <div class="footer-col">
+                <div class="footer-logo">CIT</div>
+                <p class="footer-motto">“Raising Africa’s Next Tech Leaders”</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Portal Login</a></li>
+                    <li><a href="admissions.html">Admission Portal</a></li>
+                    <li><a href="#">Careers at CIT</a></li>
+                    <li><a href="#">Alumni Network</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="programs.html#diplomas">All Diplomas</a></li>
+                    <li><a href="programs.html#short-courses">All Short Courses</a></li>
+                    <li><a href="#">Evening/Weekend Programs</a></li>
+                    <li><a href="scholarships.html#women-in-tech">Women in Tech Initiatives</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@cit.ug">info@cit.ug</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+256789123456">+256 789 123 456</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Future Campus: Kampala, Uganda</p>
+                <p><i class="fas fa-clock"></i> Office Hours: Mon-Fri, 9 AM - 5 PM</p>
+                <div class="footer-map-link">
+                    <a href="contact.html#google-map-section">View on Map <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Crestwood Institute of Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic JavaScript for sticky nav and mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('.main-header');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            // Sticky Navigation
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) { // Adjust scroll threshold as needed
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Mobile Menu Toggle
+            mobileMenu.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                mobileMenu.classList.toggle('active'); // Change icon
+            });
+
+            // Close mobile menu when a link is clicked (optional)
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // Dropdown functionality for desktop (basic hover) and mobile (click)
+            const dropdowns = document.querySelectorAll('.has-dropdown');
+            dropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('a');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                // For desktop hover
+                dropdown.addEventListener('mouseenter', () => {
+                    if (window.innerWidth > 768) { // Only on larger screens
+                        dropdownMenu.style.display = 'block';
+                    }
+                });
+                dropdown.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        dropdownMenu.style.display = 'none';
+                    }
+                });
+
+                // For mobile click
+                dropdownToggle.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault(); // Prevent default link behavior
+                        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

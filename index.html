@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crestwood Institute of Technology - Engineering Africa's Future</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. Top Bar -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-contact">
+            <span><i class="fas fa-envelope"></i> info@cit.ug</span>
+            <span><i class="fas fa-phone-alt"></i> +256 789 123 456</span>
+        </div>
+        <div class="top-bar-social">
+            <a href="https://facebook.com/crestwoodit" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/crestwoodit" target="_blank" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/company/crestwoodit" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com/crestwoodit" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="top-bar-quick-links">
+            <a href="admissions.html">Apply Now</a> |
+            <a href="alumni.html">Alumni</a> |
+            <a href="careers.html">Careers</a> |
+            <a href="portal.html">Portal Login</a>
+        </div>
+    </div>
+</div>
+
+<!-- 2. Navigation Bar -->
+<header class="main-header sticky-nav">
+    <div class="container">
+        <div class="logo">CIT</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="has-dropdown">
+                    <a href="about.html">About Us <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#vision-mission">Vision & Mission</a></li>
+                        <li><a href="staff.html">Leadership</a></li> <!-- Changed to staff.html for leadership profiles -->
+                        <li><a href="virtual-tour.html">Campus</a></li> <!-- Changed to virtual-tour.html for campus preview -->
+                        <li><a href="about.html#history">Our History</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="programs.html">Academics <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="programs.html#schools">Schools & Faculties</a></li> <!-- Placeholder section on programs.html -->
+                        <li><a href="programs.html">Programs Offered</a></li>
+                        <li><a href="programs.html#online-learning">Online Learning</a></li> <!-- Placeholder section on programs.html -->
+                        <li><a href="resources.html#academic-calendar">Academic Calendar</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="admissions.html">Admissions <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="admissions.html#online-application-form">Apply Now</a></li>
+                        <li><a href="admissions.html#admission-requirements">Admission Requirements</a></li>
+                        <li><a href="scholarships.html">Scholarships & Financial Aid</a></li>
+                        <li><a href="international-students.html">International Students</a></li> <!-- New placeholder page -->
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="student-life.html">Student Life <i class="fas fa-chevron-down dropdown-icon"></i></a> <!-- New placeholder page -->
+                    <ul class="dropdown-menu">
+                        <li><a href="student-life.html#clubs">Clubs & Societies</a></li>
+                        <li><a href="news.html#upcoming-events">Events</a></li> <!-- Links to events on news.html -->
+                        <li><a href="student-life.html#hostel">Hostel Life</a></li>
+                        <li><a href="student-life.html#counseling">Counseling & Support</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="research.html">Research & Innovation <i class="fas fa-chevron-down dropdown-icon"></i></a> <!-- New placeholder page -->
+                    <ul class="dropdown-menu">
+                        <li><a href="research.html#projects">Research Projects</a></li>
+                        <li><a href="research.html#lab">Innovation Lab</a></li>
+                        <li><a href="partners.html">Collaborations</a></li> <!-- New placeholder page -->
+                    </ul>
+                </li>
+                <li><a href="news.html">News & Events</a></li> <!-- Links to news.html -->
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button class="apply-now-btn">Apply Now</button>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<main>
+    <!-- 3. Hero Section -->
+    <section class="hero-section full-screen-hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Building Africa’s Future through Technology</h1>
+            <p>Empowering the next generation of innovators, problem-solvers, and digital leaders in Uganda and beyond.</p>
+            <div class="hero-actions">
+                <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
+                <a href="contact.html" class="btn btn-outline">Book a Visit</a> <!-- Changed to contact.html -->
+            </div>
+        </div>
+    </section>
+
+        <!-- 4. Announcements Bar -->
+        <section class="announcements-bar">
+            <div class="container">
+                <div class="announcement-item">
+                    <i class="fas fa-bullhorn"></i> <span>2025 Admissions Open! Apply by Dec 15 for January Intake.</span>
+                </div>
+                <div class="announcement-item">
+                    <i class="fas fa-star"></i> <span>New Women-in-Tech Scholarships Available!</span>
+                </div>
+                <div class="announcement-item">
+                    <i class="fas fa-calendar-alt"></i> <span>Webinar: Future of AI in Africa - Nov 20.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Programs Section -->
+        <section class="section-content programs-showcase">
+            <div class="container">
+                <h2>Our Top Programs</h2>
+                <div class="program-grid">
+                    <div class="program-card">
+                        <i class="fas fa-shield-alt program-icon"></i>
+                        <h3>Diploma in Cybersecurity</h3>
+                        <p>Become an expert in protecting digital systems and data.</p>
+                        <a href="web-development.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                    <div class="program-card">
+                        <i class="fas fa-robot program-icon"></i>
+                        <h3>Certificate in Robotics & AI</h3>
+                        <p>Dive into the world of intelligent machines and automation.</p>
+                        <a href="robotics-ai.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                    <div class="program-card">
+                        <i class="fas fa-code program-icon"></i>
+                        <h3>BSc. in Software Engineering</h3>
+                        <p>Build robust and scalable software solutions for various industries.</p>
+                        <a href="software-engineering.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                    <div class="program-card">
+                        <i class="fas fa-chart-line program-icon"></i>
+                        <h3>Short Course: Tech for Business</h3>
+                        <p>Leverage technology to drive business growth and efficiency.</p>
+                        <a href="tech-for-business.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Why CIT Section -->
+        <section class="section-content why-cit">
+            <div class="container">
+                <h2>Why Choose Crestwood Institute of Technology?</h2>
+                <div class="why-cit-grid">
+                    <div class="why-cit-item">
+                        <i class="fas fa-cogs"></i>
+                        <p>Real-World Curriculum</p>
+                    </div>
+                    <div class="why-cit-item">
+                        <i class="fas fa-users-cog"></i>
+                        <p>Industry-Led Training</p>
+                    </div>
+                    <div class="why-cit-item">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <p>Scholarships for Ugandans</p>
+                    </div>
+                    <div class="why-cit-item">
+                        <i class="fas fa-handshake"></i>
+                        <p>Internship Partnerships</p>
+                    </div>
+                    <div class="why-cit-item">
+                        <i class="fas fa-cross"></i>
+                        <p>Supportive Christian Values</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Student Testimonials -->
+        <section class="section-content testimonials-section">
+            <div class="container">
+                <h2>What Our Students Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <img src="https://placehold.co/80x80/003366/FFFFFF?text=S1" alt="Student Photo 1" class="testimonial-photo">
+                        <p class="quote">"CIT transformed my career path. The practical skills I gained in Web Development were immediately applicable in my new job!"</p>
+                        <p class="author">- Jane Akello, Web Development Graduate</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://placehold.co/80x80/003366/FFFFFF?text=S2" alt="Student Photo 2" class="testimonial-photo">
+                        <p class="quote">"The Cybersecurity program is top-notch. The instructors are industry experts, and the hands-on labs are invaluable."</p>
+                        <p class="author">- David Okello, Cybersecurity Student</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://placehold.co/80x80/003366/FFFFFF?text=S3" alt="Student Photo 3" class="testimonial-photo">
+                        <p class="quote">"Thanks to CIT's Data Analytics course, I'm now making data-driven decisions at my company. Highly recommend!"</p>
+                        <p class="author">- Sarah Nambasa, Data Analytics Alumna</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Scholarships & Financial Aid -->
+        <section class="section-content scholarships-section">
+            <div class="container">
+                <h2>Scholarships & Financial Aid</h2>
+                <p class="section-description">CIT is committed to making quality tech education accessible. Explore our scholarship opportunities for Ugandan students.</p>
+                <div class="scholarship-grid">
+                    <div class="scholarship-card">
+                        <i class="fas fa-graduation-cap scholarship-icon"></i>
+                        <h4>Merit-Based Scholarships</h4>
+                        <p>Awarded to high-achieving students demonstrating academic excellence.</p>
+                        <a href="scholarships.html#merit" class="btn btn-outline">View Details</a>
+                    </div>
+                    <div class="scholarship-card">
+                        <i class="fas fa-hand-holding-heart scholarship-icon"></i>
+                        <h4>Need-Based Aid</h4>
+                        <p>Financial assistance for deserving students facing economic challenges.</p>
+                        <a href="scholarships.html#need-based" class="btn btn-outline">View Details</a>
+                    </div>
+                    <div class="scholarship-card">
+                        <i class="fas fa-female scholarship-icon"></i>
+                        <h4>Women in Tech Initiative</h4>
+                        <p>Supporting female students pursuing careers in technology fields.</p>
+                        <a href="scholarships.html#women-in-tech" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="text-center mt-40">
+                    <a href="scholarships.html" class="btn btn-primary btn-large">Explore All Scholarships</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Campus Experience Preview -->
+        <section class="section-content campus-preview">
+            <div class="container">
+                <h2>Experience Our Campus (Virtual Tour)</h2>
+                <p class="section-description">Get a glimpse of our vibrant learning environment and state-of-the-art facilities, both online and our future physical campus.</p>
+                <div class="video-placeholder">
+                    <iframe
+                        width="100%"
+                        height="450"
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=abcdefg"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">Watch a sample class or a virtual tour of our future campus.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Partner Logos -->
+        <section class="section-content partners-section">
+            <div class="container">
+                <h2>Our Valued Partners</h2>
+                <div class="partner-logos-grid">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+1" alt="Partner Logo 1">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+2" alt="Partner Logo 2">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+3" alt="Partner Logo 3">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+4" alt="Partner Logo 4">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+5" alt="Partner Logo 5">
+                    <img src="https://placehold.co/150x80/F5F7FA/003366?text=Partner+6" alt="Partner Logo 6">
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Latest News Section -->
+        <section class="section-content latest-news-section">
+            <div class="container">
+                <h2>Latest News & Updates</h2>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <img src="https://placehold.co/300x200/003366/00FFFF?text=News+1" alt="News Image 1">
+                        <h4>CIT Hosts Inaugural Tech Innovation Summit</h4>
+                        <p class="news-date"><i class="fas fa-calendar-alt"></i> October 26, 2024</p>
+                        <p>Leaders from across the tech industry gathered to discuss the future of AI and cybersecurity in Africa.</p>
+                        <a href="#" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://placehold.co/300x200/003366/00FFFF?text=News+2" alt="News Image 2">
+                        <h4>Partnership with TechSolutions Uganda Announced</h4>
+                        <p class="news-date"><i class="fas fa-calendar-alt"></i> October 15, 2024</p>
+                        <p>New internship and job placement opportunities for CIT students through our latest industry collaboration.</p>
+                        <a href="#" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="news-card">
+                        <img src="https://placehold.co/300x200/003366/00FFFF?text=News+3" alt="News Image 3">
+                        <h4>Student Spotlight: Building a Community App</h4>
+                        <p class="news-date"><i class="fas fa-calendar-alt"></i> September 30, 2024</p>
+                        <p>Meet John Doe, a final-year student who developed an app to connect local farmers with markets.</p>
+                        <a href="#" class="read-more-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="text-center mt-40">
+                    <a href="#" class="btn btn-secondary btn-large">View All News & Events</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. Newsletter Signup -->
+        <section class="section-content newsletter-signup-section">
+            <div class="container text-center">
+                <h2>Stay Updated: Join Our Newsletter</h2>
+                <p>Receive the latest news, program updates, and tech insights directly in your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                </form>
+                <p class="form-note"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Detailed Footer -->
+    <footer class="detailed-footer">
+        <div class="container">
+            <div class="footer-col">
+                <div class="footer-logo">CIT</div>
+                <p class="footer-motto">“Raising Africa’s Next Tech Leaders”</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Portal Login</a></li>
+                    <li><a href="admissions.html">Admission Portal</a></li>
+                    <li><a href="#">Careers at CIT</a></li>
+                    <li><a href="#">Alumni Network</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="programs.html#diplomas">All Diplomas</a></li>
+                    <li><a href="programs.html#short-courses">All Short Courses</a></li>
+                    <li><a href="#">Evening/Weekend Programs</a></li>
+                    <li><a href="scholarships.html#women-in-tech">Women in Tech Initiatives</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@cit.ug">info@cit.ug</a></p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+256789123456">+256 789 123 456</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Future Campus: Kampala, Uganda</p>
+                <p><i class="fas fa-clock"></i> Office Hours: Mon-Fri, 9 AM - 5 PM</p>
+                <div class="footer-map-link">
+                    <a href="contact.html#google-map-section">View on Map <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Crestwood Institute of Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic JavaScript for sticky nav and mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('.main-header');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mainNav = document.querySelector('.main-nav');
+
+            // Sticky Navigation
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) { // Adjust scroll threshold as needed
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Mobile Menu Toggle
+            mobileMenu.addEventListener('click', function() {
+                mainNav.classList.toggle('active');
+                mobileMenu.classList.toggle('active'); // Change icon
+            });
+
+            // Close mobile menu when a link is clicked (optional)
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                    }
+                });
+            });
+
+            // Dropdown functionality for desktop (basic hover) and mobile (click)
+            const dropdowns = document.querySelectorAll('.has-dropdown');
+            dropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('a');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                // For desktop hover
+                dropdown.addEventListener('mouseenter', () => {
+                    if (window.innerWidth > 768) { // Only on larger screens
+                        dropdownMenu.style.display = 'block';
+                    }
+                });
+                dropdown.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        dropdownMenu.style.display = 'none';
+                    }
+                });
+
+                // For mobile click
+                dropdownToggle.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault(); // Prevent default link behavior
+                        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
